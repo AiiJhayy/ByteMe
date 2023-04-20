@@ -19,8 +19,6 @@ h1 {
 
 <div class = "page">
     <h1>ABOUT PAGES</h1>
-    <h1>ABOUT PAGES1</h1>
-    <h1>ABOUT PAGES2</h1>
 </div>
 
 </body>
