@@ -56,6 +56,46 @@
     color:#666;
     padding:1rem 0;
 }
+.about{
+    background:url(../images/about-bg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 3rem;
+}
+
+.about .column{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about .column .image{
+    flex:1 1 40rem;
+}
+
+.about .column .image img{
+    width:100%;
+}
+
+.about .column .content{
+    flex:1 1 40rem;
+}
+
+.about .column .content h3{
+    font-size: 3rem;
+    color:#666;
+}
+
+.about .column .content p{
+    font-size: 1.5rem;
+    color:#666;
+    padding:1rem 0;
+}
+
+.about .column .content .buttons a:last-child{
+    margin-left: 2rem;
+}
 </style>
 
 <body>
@@ -67,8 +107,13 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus suscipit porro nam libero natus error consequatur sed repudiandae eos quo?</p>
         <a href="#" class="btn">SIGN UP NOW!</a>
 </div>
+
+
 <div class="image">
         <img src="pwd.jpg" alt="">
+    </div>
+
+
     </div>
 
 </body>

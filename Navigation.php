@@ -7,117 +7,158 @@
 </head>
 
 <style type = "text/css">
-
+:root{ 
+    --main-color: #1abc9c;
+    --red: red;
+    --light-color: #777;
+    --light-vg: #eee;
+    --black: #2c3e50;
+    --white: #fff;
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.2);
+    --border:.1rem solid rgba(0.0.0.2)
+}
 * { 
     padding: 0;
     margin: 0;
 }
-
-:root {
-    --upper-bg-color: #0072d8;
-    --upper22-bg-color: #e5f5ff;
-    --text-color: #000;
-    --text2-color: #fff;
-    --main-color: #eeeee4;
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; 
+    border:none;
 }
 
-#upper_navbar {
-    width: 100%;
-    background: #0072d8;
+*::selection{
+    background:var(--main-color);
+    color:#1abc9c;
 }
 
-#upper_navbar a {
-    color: var(--text2-color);
-    font-size: 1.1rem;
-    font-weight: 500;
-    padding: 0px 25px;
-    margin: 0px 25px;
-    transition: all .50s ease;
+
+::-webkit-scrollbar{ 
+    width: 1rem;
+    height: .5rem;
 }
 
-#upper_navbar ul {
-    list-style-type: none;
-    padding-left: 150px;
+::-webkit-scrollbar-track{ 
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb{ 
+    background:var(--main-color);
 }
 
-#upper_navbar li {
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+
+body{
+    background:#f9f9f9;
+}
+
+section{
+   
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+    
+}
+
+.btn{
     display: inline-block;
-    padding: 0px;
+    margin-top: 1rem;
+    padding: 1rem 3rem;
+    cursor: pointer;
+    font-size: 1.8rem;
+    color: #1abc9c;
+    background-color: #f9f9f9;
+    border-radius: .5rem;
+    text-align: center;
+}
+
+.btn:hover{
+    background-color:#f9f9f9;
+}
+
+
+.header{
+    position: fixed;
+    top:0; left:0; right:0;
+
+    background:#1abc9c;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+.header .flex{
+    position: relative;
+display: flex;
+align-items: center;
+    justify-content: space-between;
+ 
 }
 
 .logo img {
     display: flex;
-    width: 75px;
-    height: 75px;
+    width: 30px;
+    height: 30px;
 }
 
-.logo {
-    display: flex;
-    align-items: center;
+.header .logo{
+    font-size: 2rem;
+    color:var(--);
+    color: white;
 }
 
-.logo i {
-    color: var(--text2-color);
-    font-size: 28px;
-    margin-right: 3px;
+.header .logo span{
+    color:var(--pink);
 }
 
-.logo span {
-    color: var(--text2-color);
+.header .navbar a{
     font-size: 1.7rem;
-    font-weight: 600;
+    margin-left: 3rem;
+    color:var(--purple);
+    color: white;
+    
+
+    
 }
 
-.interface {
-    list-style-type: none;
-    text-align: right
+
+.header .navbar a:hover{
+    color:var(--pink);
 }
 
-#navbar {
-    width: 100%;
-    background: #e5f5ff;
+.header input{
+    display: none;
 }
 
-#navbar a {
-    color: var(--text-color);
-    font-size: 1.1rem;
-    font-weight: 500;
-    padding: 5px 0;
-    margin: 0px 30px;
-    transition: all .50s ease;
-}
-
-#navbar ul {
-    list-style-type: none;
-    text-align: center;
-}
-
-#navbar li {
-    display: inline-block;
-    padding: 15px;
+.header label{
+    font-size: 3rem;
+    color:var(--purple);
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
 }
 
 </style>
 
-<body>
+<header class="header">
+    <section class="flex">
 
-    <div id = "upper_navbar">
-        <ul>
-            <li><a href = "Home.php" class = "logo"><img src = "logo_white_new.png"><span>Creating PosiBILLYty</span></a></li>
-        </ul>
-        <ul class = "interface">
-            <li><a href = "LogIn.php" class = "user">SIGN IN</a></li>
-            <li><a href = "Registration.php">REGISTER</a></li>
-        </ul>
-    </div>
+<a href="Home.php" class="logo"><span>Creating</span>Possibility</a>
 
-    <div id = "navbar">
-        <ul>
-            <li><a href = "Home.php">Home</a></li>
-            <li><a href = "Contact.php">Contact</a></li>
-            <li><a href = "About.php">About</a></li>
-        </ul>
-    </div>
 
-</body>
+
+    <nav class="navbar">
+        <a href="Home.php">Home</a>
+        <a href="About.php">About Us</a>
+        <a href="Contact.php">Contact</a>
+    </nav>
+    <a href="#" class="btn" style="margin-top: 0;">CREATE AN ACCOUNT</a>
+
+</header>
 </html>
