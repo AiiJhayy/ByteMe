@@ -98,7 +98,7 @@ body{
 <br>
 
 <div class = "page">
-    <h1>ABOUT PAGE</h1>
+    <h1>ABOUT PAGESSSS</h1>
 </div>
 
 
