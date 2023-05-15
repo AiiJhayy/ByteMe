@@ -30,7 +30,7 @@
     border-radius: 5rem;
     background:var(--gradient);
     font-size: 1.7rem;
-    color:#aaaaa;
+    color: #aaa;
     cursor: pointer;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     transition: all .3s linear;
@@ -105,7 +105,7 @@
 <div class = "content">
 <h3>LOREM IPSUM <span>showcase</span></h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus suscipit porro nam libero natus error consequatur sed repudiandae eos quo?</p>
-        <a href="#" class="btn">SIGN UP NOW!</a>
+        <a href="Reg_Employer-Seeker.php" class="btn">SIGN UP NOW!</a>
 </div>
 
 

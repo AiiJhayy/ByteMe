@@ -35,7 +35,6 @@
     color:#1abc9c;
 }
 
-
 ::-webkit-scrollbar{ 
     width: 1rem;
     height: .5rem;
@@ -74,7 +73,7 @@ section{
     padding: 1rem 3rem;
     cursor: pointer;
     font-size: 1.8rem;
-    color: #1abc9c;
+    color: #2b7a78;
     background-color: #f9f9f9;
     border-radius: .5rem;
     text-align: center;
@@ -84,19 +83,17 @@ section{
     background-color:#f9f9f9;
 }
 
-
 .header{
     position: fixed;
     top:0; left:0; right:0;
-
-    background:#1abc9c;
+    background: #2b7a78;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
 }
 
 .header .flex{
     position: relative;
-display: flex;
-align-items: center;
+    display: flex;
+    align-items: center;
     justify-content: space-between;
  
 }
@@ -121,12 +118,8 @@ align-items: center;
     font-size: 1.7rem;
     margin-left: 3rem;
     color:var(--purple);
-    color: white;
-    
-
-    
+    color: white;    
 }
-
 
 .header .navbar a:hover{
     color:var(--pink);
@@ -148,8 +141,7 @@ align-items: center;
 
 <header class="header">
     <section class="flex">
-
-<a href="Home.php" class="logo"><span>Creating</span>Possibility</a>
+    <a href="Home.php" class="logo"><img src="logo_white_new.png" alt="CreatingPossbility">CreatingPossibility</a>
 
 
 
@@ -158,7 +150,7 @@ align-items: center;
         <a href="About.php">About Us</a>
         <a href="Contact.php">Contact</a>
     </nav>
-    <a href="#" class="btn" style="margin-top: 0;">CREATE AN ACCOUNT</a>
+    <a href="Login_Employer-Seeker.php" class="btn" style="margin-top: 0;">SIGN IN</a>
 
 </header>
 </html>
