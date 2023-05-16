@@ -5,15 +5,15 @@
         <meta charset = "UTF-8">
         <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
         <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
-        <title>ByteMe | LogIn</title>
+        <title>ByteMe | LogIn - Seeker</title>
     </head>
 
     <style>
-
+        
         .container {
             max-width: 600px;
             margin: 0 auto;
-            padding: 50px;
+            padding: 150px;
             box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         }
 
@@ -29,12 +29,12 @@
                 $email = $_POST["email"];
                 $password = $_POST["password"];
                 require_once "Database.php";
-                $sql = "SELECT * FROM users WHERE email = '$email'";
+                $sql = "SELECT * FROM seeker WHERE email = '$email'";
                 $result = mysqli_query($connect, $sql);
                 $user = mysqli_fetch_array($result, MYSQLI_ASSOC);
                     if ($user) {
                         if (password_verify($password, $user["password"])) {
-                            header("Location: Home.php");
+                            header("Location: Index.php");
                             die();
                         }
                         else {
@@ -48,7 +48,7 @@
         ?>
 
         <div class = "container">
-            <form action = "LogIn.php" method = "post">
+            <form action = "LogIn_Seeker.php" method = "post">
                 <div class = "form-group">
                     <input type = "email" placeholder = "Enter Email: " name = "email" class = "form-control">
                 </div>
@@ -59,7 +59,7 @@
                     <input type = "submit" value = "Login" name = "login" class = "btn btn-primary">
                 </div>
             </form>
-            <div><p>Not registered yet? <a href = "Registration.php">Register Here</a></p></div>
+            <div><p>Not registered yet? <a href = "Reg_Employer-Seeker.php">Register Here</a></p></div>
         </div>
     </body>
 </html>
