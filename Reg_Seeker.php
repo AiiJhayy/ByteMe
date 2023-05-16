@@ -12,7 +12,7 @@
         .container {
             max-width: 600px;
             margin: 0 auto;
-            padding: 50px;
+            padding: 150px;
             box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         }
 
