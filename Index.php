@@ -518,7 +518,7 @@ section{
          <div class="content text-center text-md-left">
             <h3>Rise Beyond Boundaries!</h3>
             <p>Strength is not defined by the absence of limitations, but by the determination to overcome them. Embrace your unique abilities and engage in the workforce.</p>
-            <a href="Login_Employer-Seeker.php" class="link-btn">GET STARTED</a>
+            <a href="Reg_Employer-Seeker.php" class="link-btn">Register Now!</a>
          </div>
       </div>
 
