@@ -58,7 +58,7 @@
                         $stmt = mysqli_stmt_init($connect);
                         $preparestmt = mysqli_stmt_prepare($stmt, $sql);
                             if ($preparestmt) {
-                                mysqli_stmt_bind_param($stmt, "ssss", $first_name, $last_name, $email, $passwordhash);
+                                mysqli_stmt_bind_param($stmt, "ssss", $seeker_first_name, $seeker_last_name, $email, $passwordhash);
                                 mysqli_stmt_execute($stmt);
                                 echo "<div class= 'alert alert-success'>You are registered successfully!</div>";
                             }
