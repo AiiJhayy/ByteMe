@@ -162,7 +162,7 @@ body {
 
 .contact-in:nth-child(2) {
 	flex: 45%;
-	background: #2b7a78;
+	background: var(--light-bg);
 }
 
 .contact-in:nth-child(3) {
@@ -172,7 +172,7 @@ body {
 
 .contact-in h1 {
 	font-size: 24px;
-	color: #fff;
+	color: var(--blue);
 	text-transform: uppercase;
 	font-weight: 500;
 	margin-bottom: 20px;
@@ -238,46 +238,46 @@ body {
 	width: 100%;
 	height: 40px;
 	margin-bottom: 20px;
-	border: 1px solid #fff;
+	border: 1px solid var(--blue);
 	outline: none;
 	padding-left: 5px;
 	background: transparent;
-	color: #fff;
+	color: var(--black);
 	font-size: 12px;
 	font-weight: 300;
 	font-family: 'Poppins', sans-serif;
 }
 
 .contact-in-input::placeholder {
-	color: #fff;
+	color: (--black)
 }
 
 .contact-in-textarea {
 	width: 100%;
 	height: 140px;
 	margin-bottom: 20px;
-	border: 1px solid #fff;
+	border: 1px solid var(--blue);
 	outline: none;
 	padding-top: 5px;
 	padding-left: 5px;
 	background: transparent;
-	color: #fff;
+	color: var(--black);
 	font-size: 12px;
 	font-weight: 300;
 	font-family: 'Poppins', sans-serif;
 }
 
 .contact-in-textarea::placeholder {
-	color: #fff;
+	color: var(--black);
 }
 
 .contact-in-btn {
 	width: 100%;
 	height: 40px;
-	border: 1px solid #fff;
+	border: 1px solid var(--blue);
 	outline: none;
 	background: transparent;
-	color: #fff;
+	color: var(--black);
 	font-size: 12px;
 	font-weight: 300;
 	font-family: 'Poppins', sans-serif;
@@ -290,6 +290,142 @@ body {
    
 }
 
+.footer{
+   background-color: var(--light-bg);
+}
+
+.footer .box-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+   gap:3rem;
+}
+
+.footer .box-container .box{
+   text-align: center;
+}
+
+.footer .box-container .box i{
+   height: 5rem;
+   width: 5rem;
+   border-radius: 50%;
+   line-height: 5rem;
+   font-size: 2rem;
+   background-color: var(--blue);
+   color:var(--white);
+}
+
+.footer .box-container .box h3{
+   font-size: 2rem;
+   margin:2rem 0;
+   color:var(--black);
+}
+
+.footer .box-container .box p{
+   font-size: 1.5rem;
+   color:var(--light-color);
+   text-transform: none;
+}
+
+.footer .credit{
+   text-align: center;
+   border-top: var(--border);
+   padding-top: 2rem;
+   margin-top: 2rem;
+   font-size: 2rem;
+   color:var(--light-color);
+}
+
+.footer .credit span{
+   color:var(--blue);
+}
+
+
+
+
+
+
+
+
+/* media queries  */
+
+@media (max-width:991px){
+
+   html{
+      font-size: 55%;
+   }
+
+   .header .link-btn{
+      display: none;
+   }
+
+   section{
+      padding:5rem 2rem;
+   }
+
+}
+
+@media (max-width:768px){
+
+   section{
+      padding:3rem 1rem;
+   }
+
+   #menu-btn{
+      display: inline-block;
+      transition: .2s linear;
+   }
+
+   #menu-btn.fa-times{
+      transform: rotate(180deg);
+   }
+
+   .header .nav{
+      position: absolute;
+      top:99%; left:0; right:0;
+      background-color: var(--white);
+      border-top: var(--border);
+      border-bottom: var(--border);
+      padding:1rem 0;
+      text-align: center;
+      flex-flow: column;
+      clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+      transition: .2s linear;
+   }
+
+   .header .nav.active{
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+   }
+
+   .header .nav a{
+      margin:1rem 0;
+      font-size: 2rem;
+   }
+
+   .home{
+      background-position: left;
+   }
+
+   .home .content{
+      width: auto;
+   }
+
+}
+
+@media (max-width:450px){
+
+   html{
+      font-size: 50%;
+   }
+
+   .home .content h3{
+      font-size: 4rem;
+   }
+
+   .heading{
+      font-size: 3rem;
+   }
+
+}
 @media only screen and (max-width:480px) {
 	.contact-in:nth-child(1) {
 		flex: 50%;
@@ -381,6 +517,42 @@ body {
 			</div>
             
 		</div>
+        
+<section class="footer">
+
+<div class="box-container container">
+
+   <div class="box">
+      <i class="fas fa-phone"></i>
+      <h3>phone number</h3>
+      <p>+123-456-7890</p>
+      <p>+111-222-3333</p>
+   </div>
+   
+   <div class="box">
+      <i class="fas fa-map-marker-alt"></i>
+      <h3>our address</h3>
+      <p>philippines - 400104</p>
+   </div>
+
+   <div class="box">
+      <i class="fas fa-clock"></i>
+      <h3>opening hours</h3>
+      <p>00:07am to 10:00pm</p>
+   </div>
+
+   <div class="box">
+      <i class="fas fa-envelope"></i>
+      <h3>email address</h3>
+      <p>umak@gmail.com</p>
+      <p>umak@gmail.com</p>
+   </div>
+
+</div>
+
+
+
+</section>
 
 </body>
 </html>
