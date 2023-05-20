@@ -18,7 +18,7 @@ h1 {
 <br>
 
 <div class = "page">
-    <h1>ABOUT PAGES</h1>
+    <h1>ABOUT PAGESaasasasas</h1>
 </div>
 
 </body>
