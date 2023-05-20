@@ -22,7 +22,7 @@
     </style>
 
     <body>
-        <?php include 'Navigation.php'?>
+        
 
         <div class = "container">
             <?php if (isset($_POST["submit"])) {

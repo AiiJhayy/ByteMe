@@ -23,7 +23,7 @@
 </style>
 
     <body>
-        <?php include 'Navigation.php'?>
+       
         <?php 
             if (isset($_POST ["login"])) {
                 $email = $_POST["email"];

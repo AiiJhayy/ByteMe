@@ -13,7 +13,7 @@ h1 {
 </style>
 
 <body>
-<?php include 'Navigation.php'?>
+
 
 <br>
 
