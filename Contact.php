@@ -59,15 +59,6 @@ section{
    padding:7rem 1rem;
 }
 
-.heading{
-   text-align: center;
-   font-size: 4rem;
-   color:var(--blue);
-   text-transform: uppercase;
-   font-weight: bolder;
-   margin-bottom: 3rem;
-
-}
 
 .link-btn{
    display: inline-block;
@@ -141,6 +132,15 @@ body {
 	font-family: 'Poppins', sans-serif;
 }
 
+.heading{
+   text-align: center;
+   font-size: 4rem;
+   color:var(--blue);
+   text-transform: uppercase;
+   font-weight: bolder;
+   margin-top: 150px;
+
+}
 .contact-wrap {
 	width: 80%;
 	height: auto;
@@ -151,6 +151,7 @@ body {
 
 .contact-in {
 	padding: 40px 30px;
+    margin-bottom: 15rem;
 }
 
 .contact-in:nth-child(1) {
@@ -286,6 +287,7 @@ body {
 .contact-in iframe {
 	width: 100%;
 	height: 100%;
+   
 }
 
 @media only screen and (max-width:480px) {
@@ -347,6 +349,7 @@ body {
    </div>
 
 </header>
+<h1 class="heading">CONTACT US</h1>
 <div class="contact-wrap">
 			<div class="contact-in">
 				<h1>Contact Info</h1>
@@ -376,6 +379,7 @@ body {
 			<div class="contact-in">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.627932261151!2d121.05349231187118!3d14.563256977928772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c860ad20d9e9%3A0xeeb71061020f655a!2sUniversity%20of%20Makati!5e0!3m2!1sen!2sph!4v1684257119300!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</div>
+            
 		</div>
 
 </body>

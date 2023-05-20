@@ -146,7 +146,7 @@ section{
 .home .content h3{
    font-size: 6rem;
    text-transform: uppercase;
-   color:var(--black);
+   color:var(--blue);
 
 }
 
@@ -337,7 +337,7 @@ section{
 }
 
 .footer{
-   background-color: var(--light-bg);
+   background-color: var(--white);
 }
 
 .footer .box-container{
