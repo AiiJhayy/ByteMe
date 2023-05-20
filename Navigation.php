@@ -140,7 +140,7 @@
 
     <header class="header">
         <section class="flex">
-        <a href="Home.php" class="logo"><img src="Pictures/logo_white_new.png" alt="CreatingPossbility">CreatingPossibility</a>
+        <a href="Index.php" class="logo"><img src="Pictures/logo_white_new.png" alt="CreatingPossbility">CreatingPossibility</a>
 
 
 
