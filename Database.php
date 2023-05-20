@@ -3,7 +3,7 @@
 $hostName= "localhost";
 $dbUser = "root";
 $dbPassword = "";
-$dbName = "employer-seeker";
+$dbName = "registration_login";
 $connect = mysqli_connect($hostName, $dbUser, $dbPassword, $dbName);
 if (!$connect) {
     die("SOMETHING WENT WRONG;");
