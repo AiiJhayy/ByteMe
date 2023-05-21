@@ -16,6 +16,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
 :root{
+   --blue:#00b8b8;
+   --black:#333;
+   --white:#fff;
+   --light-color:#666;
+   --light-bg:#eee;
    --border:.2rem solid rgba(0,0,0,.1);
    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
 }
