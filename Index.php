@@ -646,7 +646,7 @@ section{
    <div class="box-container container">
 
       <div class="box">
-         <img src="images/pic-1.png." alt="">
+         <img src="Pictures/aj.png" alt="Angelo Jervyne Redruco">
          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, iure? Nemo est aspernatur voluptatum id, laboriosam asperiores iure omnis alias?</p>
          <div class="stars">
             <i class="fas fa-star"></i>
@@ -655,12 +655,12 @@ section{
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
          </div>
-         <h3>Angelo Redruco</h3>
+         <h3>Angelo Jervyne Redruco</h3>
          <span>satisfied client</span>
       </div>
 
       <div class="box">
-         <img src="images/pic-2.png." alt="">
+         <img src="Pictures/fem.png" alt="Ma. Femela Aila T. Manay">
          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, iure? Nemo est aspernatur voluptatum id, laboriosam asperiores iure omnis alias?</p>
          <div class="stars">
             <i class="fas fa-star"></i>
@@ -669,12 +669,12 @@ section{
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
          </div>
-         <h3>Ma. Femela Manay</h3>
+         <h3>Ma. Femela Aila T. Manay</h3>
          <span>satisfied client</span>
       </div>
 
       <div class="box">
-         <img src="images/pic-3.png." alt="">
+         <img src="Pictures/bill.png" alt="Billy N. Bocal">
          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, iure? Nemo est aspernatur voluptatum id, laboriosam asperiores iure omnis alias?</p>
          <div class="stars">
             <i class="fas fa-star"></i>
@@ -683,7 +683,7 @@ section{
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
          </div>
-         <h3>Billy Bocal</h3>
+         <h3>Billy N. Bocal</h3>
          <span>satisfied client</span>
       </div>
 
