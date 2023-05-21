@@ -45,6 +45,19 @@
                         echo "<div class = 'alert alert-danger'>Email does not much!</div>";
                     }
             }
+            session_start();
+            if (isset($_POST ["login"])) {
+                $email = $_POST["email"];
+                $password = $_POST["password"];
+                require_once "Database.php";
+                $sql = "SELECT * FROM admin WHERE email = '$email' AND password='$password'";
+                $result = mysqli_query($connect, $sql);
+                $user = mysqli_num_rows($result);
+                        if ($user) {
+                            header("Location: AdminDashboard.php");
+                            die();
+                        }        
+            }
         ?>
 
         <div class = "container">

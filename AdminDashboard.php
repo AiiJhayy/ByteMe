@@ -1,18 +1,27 @@
+<?php 
+    include "Database.php";
+    session_start();
+    $email = $_SESSION['email'];
+    $sql = "SELECT * FROM admin WHERE email = '$email'";
+    $result = mysqli_query($connect, $sql);
+        while($row=mysqli_fetch_object($result)) {
+            $admin_name = $row -> admin_name;
+        }
+?>
 <!DOCTYPE html>
 <html lang = "en">
 <head>
     <meta charset = "UTF-8">
     <meta name = "veiwport" content = "width=device-width, initial-scale = 1">
-    <title>Home | ByteMe Co.</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <!-- font awesome cdn link  -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-
-<!-- bootstrap cdn link  -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- bootstrap cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css">
+    <title><?php echo $admin_name; ?> | DASHBOARD</title>
 </head>
 
-<style>
+<style type = "text/css">
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
 :root{
@@ -185,7 +194,7 @@ section{
 
 .services .box-container .box img{
    margin:1rem 0;
-   height: 8rem;
+   height: 4rem;
 }
 
 .services .box-container .box h3{
@@ -446,31 +455,24 @@ section{
 }
 </style>
 
-<body> 
-<!-- header section starts  -->
-
+<body>
 <header class="header fixed-top">
 
    <div class="container">
 
       <div class="row align-items-center justify-content-between">
-         <a href="Index.php" class="logo"><img src="Pictures/logog.png" style=float:left alt="CreatingPossbility">Creating<span>Possibility</span></a>
+
+       
+         <a href="AdminDashboard.php" class="logo"><img src="Pictures/logog.png" style=float:left alt="CreatingPossbility">Creating<span>Possibility</span></a>
+
          <nav class="nav">
-            <a href="Index.php">Home</a>
-            <a href="About.php">About Us</a>
+            <a href="AdminDashboard.php">Home</a>
+            <a href="Admin_Post.php">Post</a>
             <a href="Contact.php">Contact</a>
-            <a href="ResumeBuilder.php">Resume Builder</a>
          </nav>
-         <a href="Login_Employer-Seeker.php" class="link-btn">LOGIN</a>
-         <div id="menu-btn" class="fas fa-bars"></div>
       </div>
    </div>
 </header>
-
-<!-- header section ends -->
-
-<!-- home section starts  -->
-
 <section class="home" id="home">
 
    <div class="container">
@@ -495,7 +497,7 @@ section{
       <div class="row align-items-center">
 
          <div class="col-md-6 image">
-            <video src="Pictures/findjoba.mp4" loop autoplay muted class="w-100 mb-5 mb-md-0" alt=""></video>
+            <img src="Pictures/about-us.png" class="w-100 mb-5 mb-md-0" alt="">
          </div>
 
          <div class="col-md-6 content">
@@ -522,27 +524,39 @@ section{
    <div class="box-container container">
 
       <div class="box">
-         <img src="Pictures/embrace.png" alt="">
-         <h3>Embrace Your Strengths</h3>
-         <p>Recognize and embrace your strengths, skills, and abilities. Understand that your disability does not define you; instead,
-             focus on your talents and unique attributes that can add value to employers. 
-            Identify areas of expertise where you excel and leverage them to pursue suitable career paths.</p>
+         <img src="TRY.png" alt="">
+         <h3>Lorem ipsum dolor sit</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, non?</p>
       </div>
 
       <div class="box">
-         <img src="Pictures/advocate.png" alt="">
-         <h3>Advocate for Yourself</h3>
-         <p>
-Self-advocacy is crucial when pursuing a career as a PWD. Clearly communicate your needs and accommodations during the application process and in the workplace.
- Educate employers about your abilities and the adaptations that can help you perform at your best. 
- Be confident in asserting your rights and advocating for necessary adjustments.</p>
+         <img src="images/icon-2.svg." alt="">
+         <h3>Lorem ipsum dolor sit</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, non?</p>
       </div>
 
       <div class="box">
-         <img src="Pictures/staypositive.png" alt="">
-         <h3>Stay Positive and Resilient</h3>
-         <p>Remember that setbacks and challenges are part of everyone's journey. Maintain a positive mindset, embrace resilience, and never lose sight of your goals. 
-            Believe in yourself and your abilities, and keep pushing forward despite any obstacles you encounter.</p>
+         <img src="images/icon-3.svg." alt="">
+         <h3>Lorem ipsum dolor sit</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, minima?</p>
+      </div>
+
+      <div class="box">
+         <img src="images/icon-4.svg." alt="">
+         <h3>Lorem ipsum dolor sit</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, minima?</p>
+      </div>
+
+      <div class="box">
+         <img src="images/icon-5.svg." alt="">
+         <h3>Lorem ipsum dolor sit</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, minima?</p>
+      </div>
+
+      <div class="box">
+         <img src="images/icon-6.svg." alt="">
+         <h3>Lorem ipsum dolor sit</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, minima?</p>
       </div>
 
    </div>
@@ -682,20 +696,5 @@ Self-advocacy is crucial when pursuing a career as a PWD. Clearly communicate yo
  
 
 </section>
-
-<!-- footer section ends -->
-
-
-
-
-
-
-
-
-
-
-<!-- custom js file link  -->
-
-
 </body>
 </html>
