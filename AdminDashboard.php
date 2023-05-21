@@ -1,18 +1,27 @@
+<?php 
+    include "Database.php";
+    session_start();
+    $email = $_SESSION['email'];
+    $sql = "SELECT * FROM admin WHERE email = '$email'";
+    $result = mysqli_query($connect, $sql);
+        while($row=mysqli_fetch_object($result)) {
+            $admin_name = $row -> admin_name;
+        }
+?>
 <!DOCTYPE html>
 <html lang = "en">
 <head>
     <meta charset = "UTF-8">
     <meta name = "veiwport" content = "width=device-width, initial-scale = 1">
-    <title>Home | ByteMe Co.</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <!-- font awesome cdn link  -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-
-<!-- bootstrap cdn link  -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- bootstrap cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css">
+    <title><?php echo $admin_name; ?> | DASHBOARD</title>
 </head>
 
-<style>
+<style type = "text/css">
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
 :root{
@@ -446,30 +455,24 @@ section{
 }
 </style>
 
-<body> 
-<!-- header section starts  -->
-
+<body>
 <header class="header fixed-top">
 
    <div class="container">
 
       <div class="row align-items-center justify-content-between">
-         <a href="Index.php" class="logo"><img src="Pictures/logog.png" style=float:left alt="CreatingPossbility">Creating<span>Possibility</span></a>
+
+       
+         <a href="AdminDashboard.php" class="logo"><img src="Pictures/logog.png" style=float:left alt="CreatingPossbility">Creating<span>Possibility</span></a>
+
          <nav class="nav">
-            <a href="Index.php">Home</a>
-            <a href="About.php">About Us</a>
+            <a href="AdminDashboard.php">Home</a>
+            <a href="Admin_Post.php">Post</a>
             <a href="Contact.php">Contact</a>
          </nav>
-         <a href="Login_Employer-Seeker.php" class="link-btn">LOGIN</a>
-         <div id="menu-btn" class="fas fa-bars"></div>
       </div>
    </div>
 </header>
-
-<!-- header section ends -->
-
-<!-- home section starts  -->
-
 <section class="home" id="home">
 
    <div class="container">
@@ -693,20 +696,5 @@ section{
  
 
 </section>
-
-<!-- footer section ends -->
-
-
-
-
-
-
-
-
-
-
-<!-- custom js file link  -->
-
-
 </body>
 </html>
