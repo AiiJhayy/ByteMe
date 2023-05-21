@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang = "en">
     <head>
-    <meta charset = "UTF-8">
+       <meta charset = "UTF-8">
     <meta name = "veiwport" content = "width=device-width, initial-scale = 1">
         <title>ByteMe | Registration Form - Employer</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
@@ -47,15 +47,10 @@
    background-color: var(--black);
 }
 
-html{
-   font-size: 62.5%;
-   overflow-x: hidden;
-   scroll-behavior: smooth;
-   scroll-padding-top: 6.5rem;
-}
+
 
 section{
-   padding:7rem 1rem;
+   padding:3rem 1rem;
 }
 
 .heading{
@@ -70,11 +65,11 @@ section{
 
 .link-btn{
    display: inline-block;
-   padding:1rem 3rem;
-   border-radius: .5rem;
+   padding:1rem 2.4rem;
+   border-radius: .8rem;
    background-color: var(--blue);
    cursor: pointer;
-   font-size: 1.7rem;
+   font-size: 1rem;
    color:var(--white);
 }
 
@@ -84,7 +79,7 @@ section{
 }
 
 .header{
-   padding:2rem;
+   padding: 1rem;
    border-bottom: var(--border);
    background-color: var(--white);
  
@@ -97,24 +92,48 @@ section{
 }
 .logo img {
     display: flex;
-    width: 30x;
-    height: 30px;
+    width: 20x;
+    height: 20px;
     
 }
 
 .header .logo{
-   font-size: 2rem;
+   font-size: 1rem;
    color:var(--black);
+   margin:0 1rem;
+   
 }
 
 .header .logo span{
    color:var(--blue);
 }
 
+header {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.nav a {
+  margin: 0 1.8rem;
+  font-size: 1rem;
+  color: var(--black);
+}
 .header .nav a{
-   margin:0 1rem;
-   font-size: 1.7rem;
+   display: flex;
+   margin:100 2.3rem;
+   font-size: 1rem;
    color:var(--black);
+   justify-content: center;
+   align-items: center;
+
 }
 
 .header .nav a:hover{
@@ -122,7 +141,7 @@ section{
 }
 
 #menu-btn{
-   font-size: 2.5rem;
+   font-size: 2rem;
    color:var(--black);
    cursor: pointer;
    display: none;
@@ -149,16 +168,14 @@ section{
 
 @media (max-width:991px){
 
-html{
-   font-size: 55%;
-}
+
 
 .header .link-btn{
    display: none;
 }
 
 section{
-   padding:5rem 2rem;
+   padding: 3rem 2rem;
 }
 
 }

@@ -467,13 +467,13 @@ body {
       <div class="row align-items-center justify-content-between">
 
        
-         <a href="Index.php" class="logo"><img src="logog.png" style=float:left alt="CreatingPossbility">Creating<span>Possibility</span></a>
+         <<a href="Index.php" class="logo"><img src="Pictures/logog.png" style=float:left alt="CreatingPossbility">Creating<span>Possibility</span></a>
 
          <nav class="nav">
             <a href="Index.php">Home</a>
             <a href="About.php">About Us</a>
-           
             <a href="Contact.php">Contact</a>
+            <a href="ResumeBuilder.php">Resume Builder</a>
          </nav>
 
          <a href="Login_Employer-Seeker.php" class="link-btn">LOGIN</a>
