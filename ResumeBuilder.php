@@ -97,7 +97,11 @@ a{
 .bg-grey{background-color: var(--clr-grey);}
 .bg-white{background-color: var(--clr-white);}
 .bg-black{background-color: var(--clr-black);}
-.bg-green{background-color: var(--clr-green);}
+
+.blue-bg {
+  background-color: #068484;
+}
+
 
 .text-center{ text-align: center;}
 .text-left{text-align: left;}
@@ -279,7 +283,7 @@ section{
 
 }
 
-.link-btn{
+.navbar .link-btn{
    display: inline-block;
    padding:1rem 3rem;
    border-radius: .5rem;
@@ -287,6 +291,7 @@ section{
    cursor: pointer;
    font-size: 1.7rem;
    color:var(--white);
+ 
 }
 
 .link-btn:hover{
@@ -302,7 +307,7 @@ section{
  
 }
 
-.header .active{
+ .active{
    background-color: var(--white);
    box-shadow: var(--box-shadow);
    border:0;
@@ -314,22 +319,24 @@ section{
     
 }
 
-.header .logo{
+ .logo{
    font-size: 2rem;
    color:var(--black);
 }
 
-.header .logo span{
+.logo span{
    color:var(--blue);
 }
 
-.header .nav a{
-   margin:0 1rem;
+ .navbar a{
+   margin:0 3rem;
    font-size: 1.7rem;
    color:var(--black);
+   text-decoration: none;
+
 }
 
-.header .nav a:hover{
+ .navbar a:hover{
    color:var(--blue);
 }
 
@@ -439,9 +446,10 @@ section{
 }
 
 .cv-form-row-title{
-    background-color: var(--clr-dark);
+    background-color: var(--blue);
     padding: 0.8rem 1.6rem;
     margin-bottom: 2rem;
+    text-align: center;
 }
 
 .cv-form-row-title h3{
@@ -983,7 +991,7 @@ textarea{
         <section id = "preview-sc" class = "print_area">
             <div class = "container">
                 <div class = "preview-cnt">
-                    <div class = "preview-cnt-l bg-green text-white">
+                    <div class = "preview-cnt-l blue-bg text-white">
                         <div class = "preview-blk">
                             <div class = "preview-image">
                                 <img src = "" alt = "" id = "image_dsp"> 

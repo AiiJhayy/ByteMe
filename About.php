@@ -156,39 +156,8 @@ section{
    line-height: 2;
 }
 
-.services{
-   background-color: var(--light-bg);
-}
-
-.services .box-container{
-   display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-   gap:2rem;
-}
-
-.services .box-container .box{
-   text-align: center;
-   padding:2rem;
+.process{
    background-color: var(--white);
-   box-shadow: var(--box-shadow);
-   border-radius: .5rem;
-}
-
-.services .box-container .box img{
-   margin:1rem 0;
-   height: 4rem;
-}
-
-.services .box-container .box h3{
-   font-size: 2rem;
-   padding:1rem 0;
-   color:var(--black);
-}
-
-.services .box-container .box p{
-   font-size: 1.5rem;
-   color:var(--light-color);
-   line-height: 2;
 }
 
 .process .box-container{
@@ -198,7 +167,7 @@ section{
 }
 
 .process .box-container .box{
-   background-color: var(--blue);
+   background-color:#39c9c9;
    padding:2rem;
    border-radius: .5rem;
    text-align: center;
@@ -241,8 +210,8 @@ section{
 }
 
 .reviews .box-container .box img{
-   height: 10rem;
-   width: 10rem;
+   height: 20rem;
+   width: 20rem;
    border-radius: 50%;
 }
 
@@ -277,40 +246,56 @@ section{
    font-size: 1.5rem;
 }
 
-.contact form{
-   border-radius: .5rem;
+
+.footer{
    background-color: var(--light-bg);
-   padding:2rem;
-   margin:0 auto;
-   max-width: 50rem;
 }
 
-.contact form .message{
-   margin-bottom: 2rem;
-   border-radius: .5rem;
-   background-color: var(--blue);
-   padding:1.2rem 1rem;
-   font-size: 1.7rem;
-   color:var(--white);
+.footer .box-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+   gap:3rem;
+}
+
+.footer .box-container .box{
    text-align: center;
 }
 
-.contact form .box{
-   width: 100%;
-   margin-top: 1rem;
-   margin-bottom: 2rem;
-   border-radius: .5rem;
-   background-color: var(--white);
-   padding:1.2rem 1.4rem;
-   font-size: 1.7rem;
+.footer .box-container .box i{
+   height: 5rem;
+   width: 5rem;
+   border-radius: 50%;
+   line-height: 5rem;
+   font-size: 2rem;
+   background-color: var(--blue);
+   color:var(--white);
+}
+
+.footer .box-container .box h3{
+   font-size: 2rem;
+   margin:2rem 0;
    color:var(--black);
+}
+
+.footer .box-container .box p{
+   font-size: 1.5rem;
+   color:var(--light-color);
    text-transform: none;
 }
 
-.contact form span{
-   font-size: 1.7rem;
-   color:var(--black);
+.footer .credit{
+   text-align: center;
+   border-top: var(--border);
+   padding-top: 2rem;
+   margin-top: 2rem;
+   font-size: 2rem;
+   color:var(--light-color);
 }
+
+.footer .credit span{
+   color:var(--blue);
+}
+
 
 
 
@@ -410,6 +395,122 @@ section{
    </div>
 
 </header>
+<section class="about" id="about">
+
+   <div class="container">
+
+      <div class="row align-items-center">
+
+         <div class="col-md-6 image">
+            <img src="Pictures/about-us.png" class="w-100 mb-5 mb-md-0" alt="">
+         </div>
+
+         <div class="col-md-6 content">
+            <span>about us</span>
+            <h3>Lorem ipsum dolor sit</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam cupiditate vero in provident ducimus. Totam quas labore mollitia cum nisi, sint, expedita rem error ipsa, nesciunt ab provident. Aperiam, officiis!</p>
+            <a href="#contact" class="link-btn">Contact Us</a>
+         </div>
+
+      </div>
+
+   </div>
+
+</section>
+
+
+<section class="reviews" id="reviews">
+
+   <h1 class="heading"> MISSION AND VISION </h1>
+
+   <div class="box-container container">
+
+      <div class="box">
+         <img src="Pictures/mission.png" alt="">
+         <h3>MISSION</h3>
+         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, iure? Nemo est aspernatur voluptatum id, laboriosam asperiores iure omnis alias?</p>
+
+        
+      </div>
+
+      <div class="box">
+         <img src="Pictures/vision.png" alt="">
+         <h3>VISION</h3>
+         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, iure? Nemo est aspernatur voluptatum id, laboriosam asperiores iure omnis alias?</p>
+    
+        
+        
+       
+      </div>
+
+   
+</section>
+<section class="process">
+
+   <h1 class="heading">The Team Behind Creating Possibility</h1>
+
+   <div class="box-container container">
+
+      <div class="box">
+         <img src="Pictures/aj.png" alt="">
+         <h3>Angelo Jervyne Redruco</h3>
+         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, excepturi?</p>
+      </div>
+
+      <div class="box">
+         <img src="Pictures/fem.png" alt="">
+         <h3>Ma. Femela Aila T. Manay</h3>
+         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, excepturi?</p>
+      </div>
+
+      <div class="box">
+         <img src="Pictures/bill.png" alt="">
+         <h3>Billy N. Bocal</h3>
+         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, excepturi?</p>
+      </div>
+
+   </div>
+
+</section>
+
+<section class="footer">
+
+   <div class="box-container container">
+
+      <div class="box">
+         <i class="fas fa-phone"></i>
+         <h3>phone number</h3>
+         <p>+123-456-7890</p>
+         <p>+111-222-3333</p>
+      </div>
+      
+      <div class="box">
+         <i class="fas fa-map-marker-alt"></i>
+         <h3>our address</h3>
+         <p>philippines - 400104</p>
+      </div>
+
+      <div class="box">
+         <i class="fas fa-clock"></i>
+         <h3>opening hours</h3>
+         <p>00:07am to 10:00pm</p>
+      </div>
+
+      <div class="box">
+         <i class="fas fa-envelope"></i>
+         <h3>email address</h3>
+         <p>umak@gmail.com</p>
+         <p>umak@gmail.com</p>
+      </div>
+
+   </div>
+
+ 
+
+</section>
+
+<!-- reviews section starts  -->
+
 
 
 

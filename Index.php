@@ -190,7 +190,7 @@ section{
 
 .services .box-container .box img{
    margin:1rem 0;
-   height: 4rem;
+   height: 8rem;
 }
 
 .services .box-container .box h3{
@@ -500,7 +500,7 @@ section{
       <div class="row align-items-center">
 
          <div class="col-md-6 image">
-            <img src="Pictures/about-us.png" class="w-100 mb-5 mb-md-0" alt="">
+            <video src="Pictures/findjoba.mp4" loop autoplay muted class="w-100 mb-5 mb-md-0" alt=""></video>
          </div>
 
          <div class="col-md-6 content">
@@ -527,39 +527,27 @@ section{
    <div class="box-container container">
 
       <div class="box">
-         <img src="TRY.png" alt="">
-         <h3>Lorem ipsum dolor sit</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, non?</p>
+         <img src="Pictures/embrace.png" alt="">
+         <h3>Embrace Your Strengths</h3>
+         <p>Recognize and embrace your strengths, skills, and abilities. Understand that your disability does not define you; instead,
+             focus on your talents and unique attributes that can add value to employers. 
+            Identify areas of expertise where you excel and leverage them to pursue suitable career paths.</p>
       </div>
 
       <div class="box">
-         <img src="images/icon-2.svg." alt="">
-         <h3>Lorem ipsum dolor sit</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, non?</p>
+         <img src="Pictures/advocate.png" alt="">
+         <h3>Advocate for Yourself</h3>
+         <p>
+Self-advocacy is crucial when pursuing a career as a PWD. Clearly communicate your needs and accommodations during the application process and in the workplace.
+ Educate employers about your abilities and the adaptations that can help you perform at your best. 
+ Be confident in asserting your rights and advocating for necessary adjustments.</p>
       </div>
 
       <div class="box">
-         <img src="images/icon-3.svg." alt="">
-         <h3>Lorem ipsum dolor sit</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, minima?</p>
-      </div>
-
-      <div class="box">
-         <img src="images/icon-4.svg." alt="">
-         <h3>Lorem ipsum dolor sit</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, minima?</p>
-      </div>
-
-      <div class="box">
-         <img src="images/icon-5.svg." alt="">
-         <h3>Lorem ipsum dolor sit</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, minima?</p>
-      </div>
-
-      <div class="box">
-         <img src="images/icon-6.svg." alt="">
-         <h3>Lorem ipsum dolor sit</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, minima?</p>
+         <img src="Pictures/staypositive.png" alt="">
+         <h3>Stay Positive and Resilient</h3>
+         <p>Remember that setbacks and challenges are part of everyone's journey. Maintain a positive mindset, embrace resilience, and never lose sight of your goals. 
+            Believe in yourself and your abilities, and keep pushing forward despite any obstacles you encounter.</p>
       </div>
 
    </div>
