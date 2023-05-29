@@ -1,3 +1,13 @@
+<?php 
+    include "Database.php";
+    session_start();
+    $email = $_SESSION['email'];
+    $sql = "SELECT * FROM admin WHERE email = '$email'";
+    $result = mysqli_query($connect, $sql);
+        while($row=mysqli_fetch_object($result)) {
+            $admin_name = $row -> admin_name;
+        }
+?>
 <!DOCTYPE html>
 <html lang = "en">
 <head>
@@ -705,10 +715,9 @@ textarea{
                         </a>
 
                     
-            <a href="Index.php">Home</a>
-            <a href="About.php">About Us</a>
-            <a href="Contact.php">Contact</a>
-            <a href="ResumeBuilder.php">Resume Builder</a>
+            <a href="Timeline.php">Timeline</a>
+            <a href="Profile.php">Profile</a>
+            <a href="Resume.php">Resume</a>
        
 
          <a href="Login_Employer-Seeker.php" class="link-btn">LOGIN</a>
