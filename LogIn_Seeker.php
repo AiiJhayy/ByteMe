@@ -24,7 +24,8 @@
 
     <body>
        
-        <?php 
+        <?php
+            session_start();
             if (isset($_POST ["login"])) {
                 $email = $_POST["email"];
                 $password = $_POST["password"];
@@ -34,7 +35,8 @@
                 $user = mysqli_fetch_array($result, MYSQLI_ASSOC);
                     if ($user) {
                         if (password_verify($password, $user["password"])) {
-                            header("Location: Index.php");
+                            $_SESSION['email']=$email;
+                            header("Location: Profile.php");
                             die();
                         }
                         else {
@@ -45,7 +47,6 @@
                         echo "<div class = 'alert alert-danger'>Email does not much!</div>";
                     }
             }
-            session_start();
             if (isset($_POST ["login"])) {
                 $email = $_POST["email"];
                 $password = $_POST["password"];
@@ -55,6 +56,7 @@
                 
                 $user = mysqli_num_rows($result);
                         if ($user) {
+                            $_SESSION['email']=$email;
                             header("Location: AdminDashboard.php");
                             die();
                         }
