@@ -70,6 +70,8 @@
                 </div>
                 <div class = "form-group">
                     <input type = "password" placeholder = "Enter Password: " name = "password" class = "form-control">
+                    <br>
+                    <a href="ForgotPass_Seeker.php" id="forgot">Forgot Your Password?</a>
                 </div>
                 <div class = "form-btn">
                     <input type = "submit" value = "Login" name = "login" class = "btn btn-primary">

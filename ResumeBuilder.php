@@ -718,9 +718,6 @@ textarea{
             <a href="Timeline.php">Timeline</a>
             <a href="Profile.php">Profile</a>
             <a href="Resume.php">Resume</a>
-       
-
-         <a href="Login_Employer-Seeker.php" class="link-btn">LOGIN</a>
 
        
                         
