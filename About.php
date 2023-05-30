@@ -413,7 +413,7 @@
             <div class="col-md-6 content">
             <span>About Us</span>
             <h3>Creating Possibility</h3>
-            <p class="about-description">We are dedicated to empowering unique individuals to explore, pursue, and thrive in the world of employment. Our comprehensive online platform offers a wide range of resources, tools, and support to help you discover fulfilling job opportunities that align with your skills and interests. From resume building to job search assistance, we are here to guide you every step of the way. Join our inclusive community today and unlock the possibilities for a successful and rewarding career path.</p>
+            <p class="about-description">We are dedicated to empowering unique individuals to explore, pursue, and thrive in the world of employment. Our comprehensive online platform offers a wide range of resources, and support to help you discover fulfilling job opportunities that align with your skills and interests. From resume building to job search assistance, we are here to guide you every step of the way. Join our inclusive community today and unlock the possibilities for a successful and rewarding career path.</p>
                <a href="Contact.php" class="link-btn">Contact Us</a>
             </div>
 
