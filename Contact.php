@@ -492,7 +492,7 @@
       </div>
 
    </header>
-   <h1 class="heading">CONTACT US</h1>
+   <h1 class="heading">CONTACT ME</h1>
    <div class="contact-wrap">
       <div class="contact-in">
          <h1>Contact Info</h1>
