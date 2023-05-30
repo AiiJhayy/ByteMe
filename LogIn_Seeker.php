@@ -301,12 +301,8 @@ html{
 </div>
 
 </header>  
-        <?php 
-=======
-       
         <?php
             session_start();
->>>>>>> 7f0b28cc4e8f7c67e343143fab7e353bd4846151
             if (isset($_POST ["login"])) {
                 $email = $_POST["email"];
                 $password = $_POST["password"];
