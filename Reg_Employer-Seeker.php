@@ -9,6 +9,24 @@
     </head>
 
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+        :root{
+   --blue:#00b8b8;
+   --black:#333;
+   --white:#fff;
+   --light-color:#666;
+   --light-bg:#eee;
+   --border:.2rem solid rgba(0,0,0,.1);
+   --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+*{
+   font-family: 'Poppins', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none !important;
+}
         body {
             font-family: Arial;
             color:  white;
@@ -47,6 +65,49 @@
             width: 200px;
             border-radius: 50%;
         }
+        .button {
+  height: 50px;
+  width: 300px;
+  position: relative;
+  background-color: transparent;
+  cursor: pointer;
+  border: 2px solid var(--white);
+  overflow: hidden;
+  border-radius: 30px;
+  color: #333;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-txt {
+  z-index: 1;
+  font-weight: 800;
+  letter-spacing: 4px;
+}
+
+.type1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 0.5s ease-in-out;
+  background-color: var(--blue);
+  border-radius: 30px;
+  visibility: hidden;
+  height: 10px;
+  width: 10px;
+  z-index: -1;
+}
+
+.button:hover {
+  box-shadow: 1px 1px 200px #252525;
+  color: #fff;
+  border: none;
+}
+
+.type1:hover::after {
+  visibility: visible;
+  transform: scale(100) translateX(2px);
+}
     </style>
 
     <body>
@@ -54,8 +115,10 @@
             <div class="split left">
                 <div class="centered">
                     <img src="Pictures/Seeker.png" alt="APPLICANT">
-                    <h2>APPLICANT</h2>
-                    <p>Click to register as an Applicant</p>
+                    <h2>APPLICANT REGISTRATIONS</h2>
+                    <button class="button type1">
+  <span class="btn-txt">Click to Register as an Applicant</span>
+</button>
                 </div>
             </div>
         </a>
@@ -64,9 +127,10 @@
             <div class="split right">
                 <div class="centered">
                     <img src="Pictures/Employer.png" alt="Employer">
-                    <h2>Employer</h2>
-                    <p>Click to register as an Employer</p>
-                    <p>You can post a job offering and accept any applicants</p>
+                    <h2>EMPLOYER REGISTRATIONS</h2>
+                    <button class="button type1">
+  <span class="btn-txt">Click to Register as an Employer</span>
+</button>
                 </div>
             </div>
         </a>

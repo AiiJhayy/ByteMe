@@ -507,7 +507,7 @@ section{
             <span>about us</span>
             <h3>Lorem ipsum dolor sit</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam cupiditate vero in provident ducimus. Totam quas labore mollitia cum nisi, sint, expedita rem error ipsa, nesciunt ab provident. Aperiam, officiis!</p>
-            <a href="#contact" class="link-btn">Contact Us</a>
+            <a href="Contact.php" class="link-btn">Contact Us</a>
          </div>
 
       </div>
