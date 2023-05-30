@@ -55,11 +55,11 @@ section{
 
 .heading{
    text-align: center;
-   font-size: 4rem;
+   font-size: 2.5rem;
    color:var(--blue);
    text-transform: uppercase;
    font-weight: bolder;
-   margin-bottom: 3rem;
+   margin-bottom: 6rem;
 
 }
 
@@ -151,7 +151,7 @@ header {
             
             max-width: 600px;
             margin: 0 auto;
-            padding: 150px;
+            padding: 130px;
             box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
             margin-top: 8rem;
             margin-bottom: 8rem;
@@ -277,6 +277,7 @@ html{
         
 
         <div class = "container">
+        <h1 class="heading">Employer's Registration</h1>
             <?php if (isset($_POST["submit"])) {
                 $employer_first_name = $_POST["first_name"];
                 $employer_last_name = $_POST["last_name"];
@@ -352,10 +353,13 @@ html{
                 <div class = "form-group">
                     <input type = "password" class = "form-control" name = "confirm_password" placeholder = "Confirm Password:">
                 </div>
-                <div class = "form-group-btn">
+                <div class = "form-group-btn text-center" >
                     <input type = "submit" class = "btn btn-primary" name = "submit" placeholder = "SUBMIT">
                 </div>
-                <div><p>Already Registered? <a href = "LogIn_Employer-Seeker.php">Login Here</a></p></div>
+
+               
+                <hr>
+                <div><p>Already Have an Account? <a href = "LogIn_Employer-Seeker.php">Sign in</a></p></div>
             </form>
         </div>
 
