@@ -575,21 +575,20 @@
 
          <div class="box">
             <img src="images/process-1.png." alt="">
-            <h3>Inclusive and Tailored Support</h3>
-         
-         <br><p>Creating Possibilities is a specialized online employment resource dedicated to unique individuals. We provide tailored support and resources to address their unique challenges, helping them excel in their careers. Our platform empowers individuals to showcase their abilities and succeed in their chosen fields.</p>
+            <h3>Inclusivity</h3>
+         <p>Our job portal is dedicated to breaking down barriers and creating an inclusive environment where individuals of all abilities can find equal opportunities for employment. We believe in embracing diversity and ensuring that every person, regardless of their disability, feels welcomed and valued in their job search.</p>
       </div>
 
       <div class="box">
          <img src="images/process-2.png." alt="">
-         <h3>Access to a Comprehensive Network</h3>
-         <p>Creating Possibilities facilitates connections between unique individuals and a diverse community of professionals, employers, and support networks. Our platform gain insights from industry experts, and discover employment opportunities that match skills and interests. We recognize the importance of a strong network for career advancement and provide the platform to make those connections possible.</p>
+         <h3>Empowerment</h3>
+         <p>We strive to empower unique individuals by providing them with the resources and support needed to navigate their career journeys. We aim to foster independence and inspire confidence, enabling job seekers to showcase their unique skills and talents, and ultimately achieve their professional goals.</p>
       </div>
 
       <div class="box">
          <img src="images/process-3.png." alt="">
-         <h3>Promoting Equal Employment Opportunities</h3>
-         <p>Creating Possibilities envisions a society where unique individuals have equal employment opportunities. We challenge stereotypes, advocate for inclusion, and work with employers to promote diversity. Through awareness-raising efforts, we strive to create an equitable and inclusive employment landscape that values and recognizes the talents and contributions of individuals with disabilities.</p>
+         <h3>Opportunity</h3>
+         <p>lt is a gateway to a world of opportunities for unique individuals. We are committed to opening doors to employment, connecting job seekers with inclusive employers who recognize and appreciate their potential. By igniting their potential, we aim to create pathways to fulfilling careers and a brighter future.</p>
          </div>
 
       </div>
@@ -607,7 +606,7 @@
       <div class="box-container container">
 
          <div class="box">
-            <img src="Pictures/profile.png" alt="Chris Holland">
+            <img src="Pictures/profile.png" alt="Hanamichi Sakuragi">
             <p>"Creating Possibility is a game-changer for people with disabilities seeking employment."</p>
             <br></br>
             <div class="stars">
@@ -617,7 +616,7 @@
                <i class="fas fa-star"></i>
                <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>Chris Holland</h3>
+            <h3>Hanamichi Sakuragi</h3>
             <span>Satisfied Client</span>
          </div>
 
