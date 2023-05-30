@@ -275,6 +275,7 @@ html{
     </style>
 
     <body>
+<<<<<<< HEAD
     <header class="header fixed-top">
 
 <div class="containers">
@@ -301,6 +302,11 @@ html{
 
 </header>  
         <?php 
+=======
+       
+        <?php
+            session_start();
+>>>>>>> 7f0b28cc4e8f7c67e343143fab7e353bd4846151
             if (isset($_POST ["login"])) {
                 $email = $_POST["email"];
                 $password = $_POST["password"];
@@ -310,7 +316,8 @@ html{
                 $user = mysqli_fetch_array($result, MYSQLI_ASSOC);
                     if ($user) {
                         if (password_verify($password, $user["password"])) {
-                            header("Location: Index.php");
+                            $_SESSION['email']=$email;
+                            header("Location: Profile.php");
                             die();
                         }
                         else {
@@ -321,7 +328,6 @@ html{
                         echo "<div class = 'alert alert-danger'>Email does not much!</div>";
                     }
             }
-            session_start();
             if (isset($_POST ["login"])) {
                 $email = $_POST["email"];
                 $password = $_POST["password"];
@@ -331,6 +337,7 @@ html{
                 
                 $user = mysqli_num_rows($result);
                         if ($user) {
+                            $_SESSION['email']=$email;
                             header("Location: AdminDashboard.php");
                             die();
                         }

@@ -276,6 +276,7 @@ html{
     </style>
 
 
+<<<<<<< HEAD
 
 
 
@@ -306,6 +307,10 @@ html{
 
 </header>
         <?php 
+=======
+        <?php
+            session_start();
+>>>>>>> 7f0b28cc4e8f7c67e343143fab7e353bd4846151
             if (isset($_POST ["login"])) {
                 $company_email = $_POST["email"];
                 $password = $_POST["password"];
@@ -315,6 +320,7 @@ html{
                 $user = mysqli_fetch_array($result, MYSQLI_ASSOC);
                     if ($user) {
                         if (password_verify($password, $user["password"])) {
+                            $_SESSION['email']=$email;
                             header("Location: Index.php");
                             die();
                         }
@@ -326,7 +332,6 @@ html{
                         echo "<div class = 'alert alert-danger'>Email does not much!</div>";
                     }
             }
-            session_start();
             if (isset($_POST ["login"])) {
                 $email = $_POST["email"];
                 $password = $_POST["password"];
@@ -335,6 +340,7 @@ html{
                 $result = mysqli_query($connect, $sql);
                 $user = mysqli_num_rows($result);
                         if ($user) {
+                            $_SESSION['email']=$email;
                             header("Location: AdminDashboard.php");
                             die();
                         }        

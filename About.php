@@ -383,7 +383,6 @@ section{
             <a href="Index.php">Home</a>
             <a href="About.php">About Us</a>
             <a href="Contact.php">Contact</a>
-            <a href="ResumeBuilder.php">Resume Builder</a>
          </nav>
 
          <a href="Login_Employer-Seeker.php" class="link-btn">LOGIN</a>
