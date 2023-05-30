@@ -134,6 +134,10 @@
       background-position: center;
    }
 
+   .home-description{
+   text-align: justify;
+   }
+
    .home .content {
       width: 55rem;
       padding: 1rem;
@@ -469,7 +473,7 @@
             <nav class="nav">
                <a href="Index.php">Home</a>
                <a href="About.php">About Us</a>
-               <a href="Contact.php">Contact</a>
+               <a href="Contact.php">Support</a>
             </nav>
             <a href="Login_Employer-Seeker.php" class="link-btn">LOGIN</a>
             <div id="menu-btn" class="fas fa-bars"></div>
@@ -487,7 +491,7 @@
          <div class="row min-vh-100 align-items-center">
             <div class="content text-center text-md-left">
                <h3>Rise Beyond Boundaries!</h3>
-               <p>Strength is not defined by the absence of limitations, but by the determination to overcome them. Embrace your unique abilities and engage in the workforce.</p>
+               <p class="home-description">Strength is not defined by the absence of limitations, but by the determination to overcome them. Embrace your unique abilities and engage in the workforce.</p>
                <a href="Reg_Employer-Seeker.php" class="link-btn">Register Now!</a>
             </div>
          </div>
@@ -509,9 +513,9 @@
             </div>
 
             <div class="col-md-6 content">
-               <span>about us</span>
-               <h3>Lorem ipsum dolor sit</h3>
-               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam cupiditate vero in provident ducimus. Totam quas labore mollitia cum nisi, sint, expedita rem error ipsa, nesciunt ab provident. Aperiam, officiis!</p>
+            <span>About Us</span>
+            <h3>Creating Possibility</h3>
+            <p class="home-description">This website is an online employment resource dedicated to empowering unique individuals in their pursuit of meaningful employment. Our platform offers comprehensive support, including resume building, and job search assistance. Join our inclusive community to unlock a rewarding career path and help us create a more inclusive and equitable workforce.</p>
                <a href="Contact.php" class="link-btn">Contact Us</a>
             </div>
 
@@ -571,20 +575,21 @@
 
          <div class="box">
             <img src="images/process-1.png." alt="">
-            <h3>Lorem ipsum dolor sit</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, excepturi?</p>
-         </div>
+            <h3>Inclusive and Tailored Support</h3>
+         
+         <br><p>Creating Possibilities is a specialized online employment resource dedicated to unique individuals. We provide tailored support and resources to address their unique challenges, helping them excel in their careers. Our platform empowers individuals to showcase their abilities and succeed in their chosen fields.</p>
+      </div>
 
-         <div class="box">
-            <img src="images/process-2.png." alt="">
-            <h3>Lorem ipsum dolor sit</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, excepturi?</p>
-         </div>
+      <div class="box">
+         <img src="images/process-2.png." alt="">
+         <h3>Access to a Comprehensive Network</h3>
+         <p>Creating Possibilities facilitates connections between unique individuals and a diverse community of professionals, employers, and support networks. Our platform gain insights from industry experts, and discover employment opportunities that match skills and interests. We recognize the importance of a strong network for career advancement and provide the platform to make those connections possible.</p>
+      </div>
 
-         <div class="box">
-            <img src="images/process-3.png." alt="">
-            <h3>Lorem ipsum dolor sit</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, excepturi?</p>
+      <div class="box">
+         <img src="images/process-3.png." alt="">
+         <h3>Promoting Equal Employment Opportunities</h3>
+         <p>Creating Possibilities envisions a society where unique individuals have equal employment opportunities. We challenge stereotypes, advocate for inclusion, and work with employers to promote diversity. Through awareness-raising efforts, we strive to create an equitable and inclusive employment landscape that values and recognizes the talents and contributions of individuals with disabilities.</p>
          </div>
 
       </div>
@@ -602,8 +607,9 @@
       <div class="box-container container">
 
          <div class="box">
-            <img src="Pictures/aj.png" alt="Angelo Jervyne Redruco">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, iure? Nemo est aspernatur voluptatum id, laboriosam asperiores iure omnis alias?</p>
+            <img src="Pictures/profile.png" alt="Chris Holland">
+            <p>"Creating Possibility is a game-changer for people with disabilities seeking employment."</p>
+            <br></br>
             <div class="stars">
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
@@ -611,13 +617,14 @@
                <i class="fas fa-star"></i>
                <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>Angelo Jervyne Redruco</h3>
-            <span>satisfied client</span>
+            <h3>Chris Holland</h3>
+            <span>Satisfied Client</span>
          </div>
 
          <div class="box">
-            <img src="Pictures/fem.png" alt="Ma. Femela Aila T. Manay">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, iure? Nemo est aspernatur voluptatum id, laboriosam asperiores iure omnis alias?</p>
+            <img src="Pictures/profile.png" alt="Jennie Park">
+            <p>"I have been thoroughly impressed with Creating Possibility as a resource for job seekers with disabilities."</p>
+           <br></br>
             <div class="stars">
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
@@ -625,13 +632,13 @@
                <i class="fas fa-star"></i>
                <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>Ma. Femela Aila T. Manay</h3>
-            <span>satisfied client</span>
+            <h3>Jennie Park</h3>
+            <span>Satisfied Client</span>
          </div>
 
          <div class="box">
-            <img src="Pictures/bill.png" alt="Billy N. Bocal">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, iure? Nemo est aspernatur voluptatum id, laboriosam asperiores iure omnis alias?</p>
+            <img src="Pictures/profile.png" alt="Luffy Roronoa">
+            <p>"Creating Possibility has revolutionized the way we approach disability inclusion in the workplace. Kudos to the team for their exceptional work!"</p>
             <div class="stars">
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
@@ -639,8 +646,8 @@
                <i class="fas fa-star"></i>
                <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>Billy N. Bocal</h3>
-            <span>satisfied client</span>
+            <h3>Luffy Roronoa</h3>
+            <span>Satisfied Client</span>
          </div>
 
       </div>
@@ -663,27 +670,27 @@
 
          <div class="box">
             <i class="fas fa-phone"></i>
-            <h3>phone number</h3>
-            <p>+123-456-7890</p>
-            <p>+111-222-3333</p>
+            <h3>Phone Number</h3>
+            <p>+639-663897674</p>
+            <p>+639-491938304</p>
          </div>
 
          <div class="box">
             <i class="fas fa-map-marker-alt"></i>
-            <h3>our address</h3>
-            <p>philippines - 400104</p>
+            <h3>Our Address</h3>
+            <p>Philippines - 400104</p>
          </div>
 
          <div class="box">
             <i class="fas fa-clock"></i>
-            <h3>opening hours</h3>
-            <p>00:07am to 10:00pm</p>
+            <h3>Opening Hours</h3>
+            <p>07:00am to 10:00pm</p>
          </div>
 
          <div class="box">
             <i class="fas fa-envelope"></i>
-            <h3>email address</h3>
-            <p>umak@gmail.com</p>
+            <h3>Email Address</h3>
+            <p>creatingpossibility11@gmail.com</p>
             <p>umak@gmail.com</p>
          </div>
 

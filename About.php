@@ -140,6 +140,7 @@
 
    .about .row {
       min-height: 50vh;
+      margin-top: 60px;
    }
 
    .about .content span {
@@ -300,8 +301,9 @@
       color: var(--blue);
    }
 
-
-
+   .about-description{
+   text-align: justify;
+}
 
 
    /* media queries  */
@@ -386,7 +388,7 @@
             <nav class="nav">
                <a href="Index.php">Home</a>
                <a href="About.php">About Us</a>
-               <a href="Contact.php">Contact</a>
+               <a href="Contact.php">Support</a>
             </nav>
 
             <a href="Login_Employer-Seeker.php" class="link-btn">LOGIN</a>
@@ -409,9 +411,9 @@
             </div>
 
             <div class="col-md-6 content">
-               <span>about us</span>
-               <h3>Lorem ipsum dolor sit</h3>
-               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam cupiditate vero in provident ducimus. Totam quas labore mollitia cum nisi, sint, expedita rem error ipsa, nesciunt ab provident. Aperiam, officiis!</p>
+            <span>About Us</span>
+            <h3>Creating Possibility</h3>
+            <p class="about-description">We are dedicated to empowering unique individuals to explore, pursue, and thrive in the world of employment. Our comprehensive online platform offers a wide range of resources, tools, and support to help you discover fulfilling job opportunities that align with your skills and interests. From resume building to job search assistance, we are here to guide you every step of the way. Join our inclusive community today and unlock the possibilities for a successful and rewarding career path.</p>
                <a href="Contact.php" class="link-btn">Contact Us</a>
             </div>
 
@@ -431,7 +433,7 @@
          <div class="box">
             <img src="Pictures/mission.png" alt="">
             <h3>MISSION</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, iure? Nemo est aspernatur voluptatum id, laboriosam asperiores iure omnis alias?</p>
+            <p>Our mission at Creating Possibility is to provide a transformative online employment resource for unique individuals. We are committed to empowering individuals to overcome barriers and achieve their full potential in the world of employment. Through our comprehensive platform, we aim to offer inclusive opportunities, resources, and support that enable individuals to explore, pursue, and thrive in meaningful careers.</p>
 
 
          </div>
@@ -439,10 +441,7 @@
          <div class="box">
             <img src="Pictures/vision.png" alt="">
             <h3>VISION</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, iure? Nemo est aspernatur voluptatum id, laboriosam asperiores iure omnis alias?</p>
-
-
-
+            <p>Our vision is to empower unique individuals to excel in their chosen careers, we strive for a society where equal access to employment opportunities is the norm. By breaking down barriers, challenging stereotypes, and fostering an inclusive workforce, we envision a world that values and recognizes the talents and contributions of every individual. Together, we create opportunities for professional success and fulfillment, regardless of disability.</p>
 
          </div>
 
@@ -457,19 +456,20 @@
          <div class="box">
             <img src="Pictures/aj.png" alt="">
             <h3>Angelo Jervyne Redruco</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, excepturi?</p>
+            <p>AJ is a bold risk-taker who firmly believes in the power of stepping outside one's comfort zone. Recognizing that great opportunities and a brighter future often lie beyond the familiar, AJ embraces risks as a catalyst for growth and innovation. With an unwavering belief that taking risks is essential for creating a better tomorrow.</p>
          </div>
 
          <div class="box">
             <img src="Pictures/fem.png" alt="">
             <h3>Ma. Femela Aila T. Manay</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, excepturi?</p>
+            <p>Femela has a strong conviction that every individual deserves equal rights, opportunities, and respect, she actively supports a fair and inclusive society. Through her actions and words, she strives to promote diversity and eradicate discrimination in all its forms.</p>
          </div>
 
          <div class="box">
             <img src="Pictures/bill.png" alt="">
             <h3>Billy N. Bocal</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, excepturi?</p>
+            <p>Billy is a devoted follower of Poong Nazareno. With unwavering faith and deep reverence, he finds solace and inspiration in his devotion. Billy's unwavering commitment to Poong Nazareno serves as a testament to his spiritual journey and the significance of his beliefs. </p>
+         
          </div>
 
       </div>
@@ -482,27 +482,27 @@
 
          <div class="box">
             <i class="fas fa-phone"></i>
-            <h3>phone number</h3>
-            <p>+123-456-7890</p>
-            <p>+111-222-3333</p>
+            <h3>Phone Number</h3>
+            <p>+639-663897674</p>
+            <p>+639-491938304</p>
          </div>
 
          <div class="box">
             <i class="fas fa-map-marker-alt"></i>
-            <h3>our address</h3>
+            <h3>Our Address</h3>
             <p>philippines - 400104</p>
          </div>
 
          <div class="box">
             <i class="fas fa-clock"></i>
-            <h3>opening hours</h3>
-            <p>00:07am to 10:00pm</p>
+            <h3>Opening Hours</h3>
+            <p>07:00am to 10:00pm</p>
          </div>
 
          <div class="box">
             <i class="fas fa-envelope"></i>
-            <h3>email address</h3>
-            <p>umak@gmail.com</p>
+            <h3>Email Address</h3>
+            <p>creatingpossibility11@gmail.com</p>
             <p>umak@gmail.com</p>
          </div>
 

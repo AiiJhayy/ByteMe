@@ -143,9 +143,52 @@
       color: var(--blue);
       text-transform: uppercase;
       font-weight: bolder;
-      margin-top: 150px;
+      margin-top: 70px;
 
    }
+
+   .heading2{
+   text-align: center;
+   font-size: 4rem;
+   color:var(--blue);
+   text-transform: uppercase;
+   font-weight: bolder;
+   margin-top: 150px;
+}
+
+h3{
+   
+   font-size: x-large;
+   color: #fff;
+
+}
+.container-service{
+   width: 100%;
+   max-width: 1080px;
+   padding: 30px;
+   background: #00b89c;
+   border-radius: 50px 20px;
+   
+   margin:auto;
+   height: 45vh;
+
+}
+
+.description{
+   text-align:justify;
+   font-size: large;
+   margin-top: 30px;
+   font-family: sans-serif;
+   color: #fff;
+   
+}
+.description1{
+   text-align:justify;
+   font-size: large;
+   margin-top: 10px;
+   color: #fff;
+   font-family: sans-serif;
+}
 
    .contact-wrap {
       width: 80%;
@@ -344,14 +387,7 @@
    .footer .credit span {
       color: var(--blue);
    }
-
-
-
-
-
-
-
-
+   
    /* media queries  */
 
    @media (max-width:991px) {
@@ -480,7 +516,7 @@
                <nav class="nav">
                   <a href="Index.php">Home</a>
                   <a href="About.php">About Us</a>
-                  <a href="Contact.php">Contact</a>
+                  <a href="Contact.php">Support</a>
                </nav>
 
                <a href="Login_Employer-Seeker.php" class="link-btn">LOGIN</a>
@@ -492,16 +528,30 @@
       </div>
 
    </header>
-   <h1 class="heading">CONTACT ME</h1>
+
+   <h1 class="heading2">SUPPORT SERVICES</h1>
+      <div class="container-service">
+      <h3>Help is available from us</h3>
+      <h2 class="description">Our website's support services are here to ensure your satisfaction 
+         and a seamless user experience. Our dedicated support team is readily 
+         available to address any questions, concerns, or technical issues you may encounter. 
+         With our prompt and friendly assistance, we strive to resolve your inquiries 
+         and provide guidance whenever you need it. Contact us via email, 
+         or phone, and let us take care of your website-related needs. Your satisfaction 
+         is our top priority.<h2>
+      <h2 class="description1">Below is the provided contact information.</h2>
+      </div>
+
+   <h1 class="heading">CONTACT US</h1>
    <div class="contact-wrap">
       <div class="contact-in">
          <h1>Contact Info</h1>
          <h2><i class="fa fa-phone" aria-hidden="true"></i> Phone</h2>
-         <p>123-456-789</p>
+         <p>0966-389-7674</p>
          <h2><i class="fa fa-envelope" aria-hidden="true"></i> Email</h2>
-         <p>umak@gmail.com</p>
+         <p>creatingpossibility11@gmail.com</p>
          <h2><i class="fa fa-map-marker" aria-hidden="true"></i> Address</h2>
-         <p>manila, philippines</p>
+         <p>Manila, Philippines</p>
          <ul>
             <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
             <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -531,27 +581,27 @@
 
          <div class="box">
             <i class="fas fa-phone"></i>
-            <h3>phone number</h3>
-            <p>+123-456-7890</p>
-            <p>+111-222-3333</p>
+            <h3>Phone Number</h3>
+            <p>+639-663897674</p>
+            <p>+639-491938304</p>
          </div>
 
          <div class="box">
             <i class="fas fa-map-marker-alt"></i>
-            <h3>our address</h3>
-            <p>philippines - 400104</p>
+            <h3>Our Address</h3>
+            <p>Philippines - 400104</p>
          </div>
 
          <div class="box">
             <i class="fas fa-clock"></i>
-            <h3>opening hours</h3>
-            <p>00:07am to 10:00pm</p>
+            <h3>Opening Hours</h3>
+            <p>07:00am to 10:00pm</p>
          </div>
 
          <div class="box">
             <i class="fas fa-envelope"></i>
-            <h3>email address</h3>
-            <p>umak@gmail.com</p>
+            <h3>Email Address</h3>
+            <p>creatingpossibility11@gmail.com</p>
             <p>umak@gmail.com</p>
          </div>
 
