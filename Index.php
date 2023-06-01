@@ -606,7 +606,7 @@
       <div class="box-container container">
 
          <div class="box">
-            <img src="Pictures/profile.png" alt="Hanamichi Sakuragi">
+            <img src="Pictures/profile.png" alt="Chris Holland">
             <p>"Creating Possibility is a game-changer for people with disabilities seeking employment."</p>
             <br></br>
             <div class="stars">
@@ -616,7 +616,7 @@
                <i class="fas fa-star"></i>
                <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>Hanamichi Sakuragi</h3>
+            <h3>Chris Holland</h3>
             <span>Satisfied Client</span>
          </div>
 

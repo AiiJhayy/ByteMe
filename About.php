@@ -140,7 +140,7 @@
 
    .about .row {
       min-height: 50vh;
-      margin-top: 60px;
+      margin-top: 7rem;
    }
 
    .about .content span {
@@ -490,7 +490,7 @@
          <div class="box">
             <i class="fas fa-map-marker-alt"></i>
             <h3>Our Address</h3>
-            <p>philippines - 400104</p>
+            <p>Philippines - 400104</p>
          </div>
 
          <div class="box">

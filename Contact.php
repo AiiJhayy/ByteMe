@@ -143,7 +143,7 @@
       color: var(--blue);
       text-transform: uppercase;
       font-weight: bolder;
-      margin-top: 70px;
+      margin-top: 7rem;
 
    }
 
@@ -153,7 +153,7 @@
    color:var(--blue);
    text-transform: uppercase;
    font-weight: bolder;
-   margin-top: 150px;
+   margin-top: 15rem;
 }
 
 h3{
@@ -164,20 +164,20 @@ h3{
 }
 .container-service{
    width: 100%;
-   max-width: 1080px;
+   max-width: 108rem;
    padding: 30px;
    background: #00b89c;
    border-radius: 50px 20px;
-   
+
    margin:auto;
-   height: 45vh;
+   height: auto;
 
 }
 
 .description{
    text-align:justify;
    font-size: large;
-   margin-top: 30px;
+   margin-top: 2rem;
    font-family: sans-serif;
    color: #fff;
    
@@ -185,7 +185,7 @@ h3{
 .description1{
    text-align:justify;
    font-size: large;
-   margin-top: 10px;
+   margin-top: 2rem;
    color: #fff;
    font-family: sans-serif;
 }
