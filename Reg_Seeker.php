@@ -156,7 +156,6 @@
   }
 
   .container {
-
     max-width: 600px;
     margin: 0 auto;
     padding: 120px;
@@ -167,7 +166,6 @@
 
   .form-group {
     margin-bottom: 30px;
-
   }
 
   /* FOOTER  */
