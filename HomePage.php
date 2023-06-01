@@ -34,7 +34,6 @@
       outline: none;
       border: none;
       text-decoration: none !important;
-
    }
 
    *::-webkit-scrollbar {
@@ -68,7 +67,6 @@
       text-transform: uppercase;
       font-weight: bolder;
       margin-bottom: 3rem;
-
    }
 
    .link-btn {
@@ -79,7 +77,6 @@
       cursor: pointer;
       font-size: 1.7rem;
       color: var(--white);
-
    }
 
    .link-btn:hover {
@@ -91,7 +88,6 @@
       padding: 2rem;
       border-bottom: var(--border);
       background-color: var(--white);
-
    }
 
    .header .active {
@@ -104,11 +100,7 @@
       display: flex;
       width: 30x;
       height: 30px;
-
    }
-
-
-
 
    .header .logo {
       font-size: 2rem;
@@ -136,11 +128,36 @@
       display: none;
    }
 
+   .home {
+      background: url(Pictures/pwd-home.png) no-repeat;
+      background-size: cover;
+      background-position: center;
+   }
 
+   .home-description{
+   text-align: justify;
+   }
+
+   .home .content {
+      width: 55rem;
+      padding: 1rem;
+   }
+
+   .home .content h3 {
+      font-size: 6rem;
+      text-transform: uppercase;
+      color: var(--blue);
+   }
+
+   .home .content p {
+      line-height: 2;
+      font-size: 1.5rem;
+      color: var(--light-color);
+      padding: 3rem 0;
+   }
 
    .about .row {
       min-height: 50vh;
-      margin-top: 7rem;
    }
 
    .about .content span {
@@ -161,8 +178,39 @@
       line-height: 2;
    }
 
-   .process {
+   .services {
+      background-color: var(--light-bg);
+   }
+
+   .services .box-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+      gap: 2rem;
+   }
+
+   .services .box-container .box {
+      text-align: center;
+      padding: 2rem;
       background-color: var(--white);
+      box-shadow: var(--box-shadow);
+      border-radius: .5rem;
+   }
+
+   .services .box-container .box img {
+      margin: 1rem 0;
+      height: 8rem;
+   }
+
+   .services .box-container .box h3 {
+      font-size: 2rem;
+      padding: 1rem 0;
+      color: var(--black);
+   }
+
+   .services .box-container .box p {
+      font-size: 1.5rem;
+      color: var(--light-color);
+      line-height: 2;
    }
 
    .process .box-container {
@@ -172,7 +220,7 @@
    }
 
    .process .box-container .box {
-      background-color: #39c9c9;
+      background-color: var(--blue);
       padding: 2rem;
       border-radius: .5rem;
       text-align: center;
@@ -215,8 +263,8 @@
    }
 
    .reviews .box-container .box img {
-      height: 20rem;
-      width: 20rem;
+      height: 10rem;
+      width: 10rem;
       border-radius: 50%;
    }
 
@@ -251,9 +299,43 @@
       font-size: 1.5rem;
    }
 
+   .contact form {
+      border-radius: .5rem;
+      background-color: var(--light-bg);
+      padding: 2rem;
+      margin: 0 auto;
+      max-width: 50rem;
+   }
+
+   .contact form .message {
+      margin-bottom: 2rem;
+      border-radius: .5rem;
+      background-color: var(--blue);
+      padding: 1.2rem 1rem;
+      font-size: 1.7rem;
+      color: var(--white);
+      text-align: center;
+   }
+
+   .contact form .box {
+      width: 100%;
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+      border-radius: .5rem;
+      background-color: var(--white);
+      padding: 1.2rem 1.4rem;
+      font-size: 1.7rem;
+      color: var(--black);
+      text-transform: none;
+   }
+
+   .contact form span {
+      font-size: 1.7rem;
+      color: var(--black);
+   }
 
    .footer {
-      background-color: var(--light-bg);
+      background-color: var(--white);
    }
 
    .footer .box-container {
@@ -301,31 +383,23 @@
       color: var(--blue);
    }
 
-   .about-description{
-   text-align: justify;
-}
-
-
    /* media queries  */
 
    @media (max-width:991px) {
-
       html {
-         font-size: 60%;
+         font-size: 55%;
       }
 
       .header .link-btn {
-         display: flex;
+         display: none;
       }
 
       section {
          padding: 5rem 2rem;
       }
-
    }
 
    @media (max-width:768px) {
-
       section {
          padding: 3rem 1rem;
       }
@@ -370,36 +444,64 @@
       .home .content {
          width: auto;
       }
+   }
 
+   @media (max-width:450px) {
+      html {
+         font-size: 50%;
+      }
+
+      .home .content h3 {
+         font-size: 4rem;
+      }
+
+      .heading {
+         font-size: 3rem;
+      }
    }
 </style>
 
 <body>
+   <!-- header section starts  -->
 
    <header class="header fixed-top">
 
       <div class="container">
 
          <div class="row align-items-center justify-content-between">
-
-
             <a href="Index.php" class="logo"><img src="Pictures/CreatingPossibility_Logo.png" style=float:left alt="CreatingPossbility">Creating<span>Possibility</span></a>
-
             <nav class="nav">
                <a href="Index.php">Home</a>
                <a href="About.php">About Us</a>
                <a href="Contact.php">Support</a>
             </nav>
-
             <a href="Login_Employer-Seeker.php" class="link-btn">LOGIN</a>
-
             <div id="menu-btn" class="fas fa-bars"></div>
-
          </div>
-
       </div>
-
    </header>
+
+   <!-- header section ends -->
+
+   <!-- home section starts  -->
+
+   <section class="home" id="home">
+
+      <div class="container">
+         <div class="row min-vh-100 align-items-center">
+            <div class="content text-center text-md-left">
+               <h3>Rise Beyond Boundaries!</h3>
+               <p class="home-description">Strength is not defined by the absence of limitations, but by the determination to overcome them. Embrace your unique abilities and engage in the workforce.</p>
+               <a href="Reg_Employer-Seeker.php" class="link-btn">Register Now!</a>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- home section ends -->
+
+   <!-- about section starts  -->
+
    <section class="about" id="about">
 
       <div class="container">
@@ -407,13 +509,13 @@
          <div class="row align-items-center">
 
             <div class="col-md-6 image">
-               <img src="Pictures/about-us.png" class="w-100 mb-5 mb-md-0" alt="">
+               <video src="Pictures/findjoba.mp4" loop autoplay muted class="w-100 mb-5 mb-md-0" alt=""></video>
             </div>
 
             <div class="col-md-6 content">
             <span>About Us</span>
             <h3>Creating Possibility</h3>
-            <p class="about-description">We are dedicated to empowering unique individuals to explore, pursue, and thrive in the world of employment. Our comprehensive online platform offers a wide range of resources, and support to help you discover fulfilling job opportunities that align with your skills and interests. From resume building to job search assistance, we are here to guide you every step of the way. Join our inclusive community today and unlock the possibilities for a successful and rewarding career path.</p>
+            <p class="home-description">This website is an online employment resource dedicated to empowering unique individuals in their pursuit of meaningful employment. Our platform offers comprehensive support, including resume building, and job search assistance. Join our inclusive community to unlock a rewarding career path and help us create a more inclusive and equitable workforce.</p>
                <a href="Contact.php" class="link-btn">Contact Us</a>
             </div>
 
@@ -423,58 +525,143 @@
 
    </section>
 
+   <!-- about section ends -->
 
-   <section class="reviews" id="reviews">
+   <!-- services section starts  -->
 
-      <h1 class="heading"> MISSION AND VISION </h1>
+   <section class="services" id="services">
 
-      <div class="box-container container">
-
-         <div class="box">
-            <img src="Pictures/mission.png" alt="">
-            <h3>MISSION</h3>
-            <p>Our mission at Creating Possibility is to provide a transformative online employment resource for unique individuals. We are committed to empowering individuals to overcome barriers and achieve their full potential in the world of employment. Through our comprehensive platform, we aim to offer inclusive opportunities, resources, and support that enable individuals to explore, pursue, and thrive in meaningful careers.</p>
-
-
-         </div>
-
-         <div class="box">
-            <img src="Pictures/vision.png" alt="">
-            <h3>VISION</h3>
-            <p>Our vision is to empower unique individuals to excel in their chosen careers, we strive for a society where equal access to employment opportunities is the norm. By breaking down barriers, challenging stereotypes, and fostering an inclusive workforce, we envision a world that values and recognizes the talents and contributions of every individual. Together, we create opportunities for professional success and fulfillment, regardless of disability.</p>
-
-         </div>
-
-
-   </section>
-   <section class="process">
-
-      <h1 class="heading">The Team Behind Creating Possibility</h1>
+      <h1 class="heading">CAREER ADVICE</h1>
 
       <div class="box-container container">
 
          <div class="box">
-            <img src="Pictures/aj.png" alt="">
-            <h3>Angelo Jervyne Redruco</h3>
-            <p>AJ is a bold risk-taker who firmly believes in the power of stepping outside one's comfort zone. Recognizing that great opportunities and a brighter future often lie beyond the familiar, AJ embraces risks as a catalyst for growth and innovation. With an unwavering belief that taking risks is essential for creating a better tomorrow.</p>
+            <img src="Pictures/embrace.png" alt="">
+            <h3>Embrace Your Strengths</h3>
+            <p>Recognize and embrace your strengths, skills, and abilities. Understand that your disability does not define you; instead,
+               focus on your talents and unique attributes that can add value to employers.
+               Identify areas of expertise where you excel and leverage them to pursue suitable career paths.</p>
          </div>
 
          <div class="box">
-            <img src="Pictures/fem.png" alt="">
-            <h3>Ma. Femela Aila T. Manay</h3>
-            <p>Femela has a strong conviction that every individual deserves equal rights, opportunities, and respect, she actively supports a fair and inclusive society. Through her actions and words, she strives to promote diversity and eradicate discrimination in all its forms.</p>
+            <img src="Pictures/advocate.png" alt="">
+            <h3>Advocate for Yourself</h3>
+            <p>
+               Self-advocacy is crucial when pursuing a career as a PWD. Clearly communicate your needs and accommodations during the application process and in the workplace.
+               Educate employers about your abilities and the adaptations that can help you perform at your best.
+               Be confident in asserting your rights and advocating for necessary adjustments.</p>
          </div>
 
          <div class="box">
-            <img src="Pictures/bill.png" alt="">
-            <h3>Billy N. Bocal</h3>
-            <p>Billy is a devoted follower of Poong Nazareno. With unwavering faith and deep reverence, he finds solace and inspiration in his devotion. Billy's unwavering commitment to Poong Nazareno serves as a testament to his spiritual journey and the significance of his beliefs. </p>
-         
+            <img src="Pictures/staypositive.png" alt="">
+            <h3>Stay Positive and Resilient</h3>
+            <p>Remember that setbacks and challenges are part of everyone's journey. Maintain a positive mindset, embrace resilience, and never lose sight of your goals.
+               Believe in yourself and your abilities, and keep pushing forward despite any obstacles you encounter.</p>
          </div>
 
       </div>
 
    </section>
+
+   <!-- services section ends -->
+
+   <!-- process section starts  -->
+
+   <section class="process">
+
+      <h1 class="heading">Why Creating Possibilities</h1>
+
+      <div class="box-container container">
+
+         <div class="box">
+            <img src="images/process-1.png." alt="">
+            <h3>Inclusivity</h3>
+         <p>Our job portal is dedicated to breaking down barriers and creating an inclusive environment where individuals of all abilities can find equal opportunities for employment. We believe in embracing diversity and ensuring that every person, regardless of their disability, feels welcomed and valued in their job search.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/process-2.png." alt="">
+         <h3>Empowerment</h3>
+         <p>We strive to empower unique individuals by providing them with the resources and support needed to navigate their career journeys. We aim to foster independence and inspire confidence, enabling job seekers to showcase their unique skills and talents, and ultimately achieve their professional goals.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/process-3.png." alt="">
+         <h3>Opportunity</h3>
+         <p>lt is a gateway to a world of opportunities for unique individuals. We are committed to opening doors to employment, connecting job seekers with inclusive employers who recognize and appreciate their potential. By igniting their potential, we aim to create pathways to fulfilling careers and a brighter future.</p>
+         </div>
+
+      </div>
+
+   </section>
+
+   <!-- process section ends -->
+
+   <!-- reviews section starts  -->
+
+   <section class="reviews" id="reviews">
+
+      <h1 class="heading"> FEEDBACK AND REVIEWS </h1>
+
+      <div class="box-container container">
+
+         <div class="box">
+            <img src="Pictures/profile.png" alt="Hanamichi Sakuragi">
+            <p>"Creating Possibility is a game-changer for people with disabilities seeking employment."</p>
+            <br></br>
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Hanamichi Sakuragi</h3>
+            <span>Satisfied Client</span>
+         </div>
+
+         <div class="box">
+            <img src="Pictures/profile.png" alt="Jennie Park">
+            <p>"I have been thoroughly impressed with Creating Possibility as a resource for job seekers with disabilities."</p>
+           <br></br>
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Jennie Park</h3>
+            <span>Satisfied Client</span>
+         </div>
+
+         <div class="box">
+            <img src="Pictures/profile.png" alt="Luffy Roronoa">
+            <p>"Creating Possibility has revolutionized the way we approach disability inclusion in the workplace. Kudos to the team for their exceptional work!"</p>
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Luffy Roronoa</h3>
+            <span>Satisfied Client</span>
+         </div>
+
+      </div>
+
+   </section>
+
+   <!-- reviews section ends -->
+
+   <!-- contact section starts  -->
+
+
+
+   <!-- contact section ends -->
+
+   <!-- footer section starts  -->
 
    <section class="footer">
 
@@ -512,9 +699,18 @@
 
    </section>
 
-   <!-- reviews section starts  -->
+   <!-- footer section ends -->
 
 
+
+
+
+
+
+
+
+
+   <!-- custom js file link  -->
 
 
 </body>
