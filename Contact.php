@@ -511,7 +511,7 @@ h3{
          <div class="row align-items-center justify-content-between">
 
 
-            <<a href="Index.php" class="logo"><img src="Pictures/logog.png" style=float:left alt="CreatingPossbility">Creating<span>Possibility</span></a>
+            <<a href="Index.php" class="logo"><img src="Pictures/CreatingPossibility_Logo.png" style=float:left alt="CreatingPossbility">Creating<span>Possibility</span></a>
 
                <nav class="nav">
                   <a href="Index.php">Home</a>

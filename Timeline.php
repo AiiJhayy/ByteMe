@@ -272,7 +272,7 @@ while ($row = mysqli_fetch_object($result)) {
     <header class="header fixed-top">
         <div class="container">
             <div class="row align-items-center justify-content-between">
-                <a href="Timeline.php" class="logo"><img src="Pictures/logog.png" style=float:left alt="CreatingPossbility">Creating<span>Possibility</span></a>
+                <a href="Timeline.php" class="logo"><img src="Pictures/CreatingPossibility_Logo.png" style=float:left alt="CreatingPossbility">Creating<span>Possibility</span></a>
                 <nav class="nav">
                     <a href="Profile.php">Profile</a>
                     <a href="">About</a>

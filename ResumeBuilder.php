@@ -889,7 +889,7 @@ while ($row = mysqli_fetch_object($result)) {
             <div class="navbar-content">
                 <div class="brand-and-toggler">
                     <a href="Index.php" class="navbar-brand">
-                        <img src="Pictures/logog.png" alt="" class="navbar-brand-icon">
+                        <img src="Pictures/CreatingPossibility_Logo.png" alt="" class="navbar-brand-icon">
                         <span class="navbar-brand-text">Creating<span>Possibility</span>
                     </a>
 
