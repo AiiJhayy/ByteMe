@@ -117,7 +117,7 @@
 </style>
 
 <body>
-    <a href="Reg_Seeker.php">
+    <a href="Registration_Seeker.php">
         <div class="split left">
             <div class="centered">
                 <img src="Pictures/Seeker.png" alt="APPLICANT">
@@ -129,7 +129,7 @@
         </div>
     </a>
 
-    <a href="Reg_Employer.php">
+    <a href="Registration_Employer.php">
         <div class="split right">
             <div class="centered">
                 <img src="Pictures/Employer.png" alt="Employer">

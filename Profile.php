@@ -1,8 +1,8 @@
 <?php
 include "Database.php";
 session_start();
-$email = $_SESSION['email'];
-$sql = "SELECT * FROM seeker WHERE email = '$email'";
+$seeker_email = $_SESSION['seeker_email'];
+$sql = "SELECT * FROM seeker WHERE seeker_email = '$seeker_email'";
 $result = mysqli_query($connect, $sql);
 while ($row = mysqli_fetch_object($result)) {
     $seeker_first_name = $row->seeker_first_name;
