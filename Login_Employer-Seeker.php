@@ -119,6 +119,8 @@
 </style>
 
 <body>
+
+
     <a href="LogIn_Seeker.php">
         <div class="split left">
             <div class="centered">
@@ -127,6 +129,7 @@
                 <button class="button type1">
                     <span class="btn-txt">Click to login as an Applicant</span>
                 </button>
+
             </div>
         </div>
     </a>
@@ -136,9 +139,13 @@
             <div class="centered">
                 <img src="Pictures/Employer.png" alt="Employer">
                 <h2>EMPLOYER LOGIN</h2>
+
                 <button class="button type1">
                     <span class="btn-txt">Click to login as an Employer</span>
                 </button>
+
+
+
             </div>
         </div>
     </a>
