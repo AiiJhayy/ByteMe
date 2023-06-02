@@ -137,6 +137,29 @@
         <img src="Pictures/CreatingPossibility_Logo.png" alt="logo">
     </div>
 
+<<<<<<< HEAD
+   <div class="loader-container">
+      <div class="spinner">
+         <div></div>
+         <div></div>
+         <div></div>
+         <div></div>
+         <div></div>
+         <div></div>
+      </div>
+   </div>
+
+   <script>
+      setTimeout(function () {
+         var logo = document.querySelector(".logo");
+         logo.style.animation = "pop-out 0.5s ease-in-out forwards";
+
+         setTimeout(function () {
+            window.location.href = "HomePage.php";
+         }, 500);
+      }, 3000);
+</script>
+=======
     <div class="loader-container">
         <div class="spinner">
             <div></div>
@@ -147,6 +170,7 @@
             <div></div>
         </div>
     </div>
+>>>>>>> 6ceee644d06f9c1ff40272c535d8d004d9a7da00
 
     <script>
         setTimeout(function() {
