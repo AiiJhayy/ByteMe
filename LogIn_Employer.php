@@ -3,19 +3,16 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ByteMe | LogIn - Employer</title>
+    <title>CreatingPossibility | LogIn - Employer</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-
     <!-- bootstrap cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css">
 </head>
-
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
@@ -53,20 +50,17 @@
         background-color: var(--black);
     }
 
-
-
     section {
         padding: 3rem 1rem;
     }
 
     .heading {
         text-align: center;
-        font-size: 2rem;
+        font-size: 2.5rem;
         color: var(--blue);
         text-transform: uppercase;
         font-weight: bolder;
-        margin-bottom: 5rem;
-
+        margin-bottom: 6rem;
     }
 
     .link-btn {
@@ -88,7 +82,6 @@
         padding: 1rem;
         border-bottom: var(--border);
         background-color: var(--white);
-
     }
 
     .header .active {
@@ -101,14 +94,12 @@
         display: flex;
         width: 20x;
         height: 20px;
-
     }
 
     .header .logo {
         font-size: 1rem;
         color: var(--black);
         margin: 0 1rem;
-
     }
 
     .header .logo span {
@@ -118,7 +109,6 @@
     header {
         display: flex;
         justify-content: center;
-
     }
 
     .nav {
@@ -141,7 +131,6 @@
         color: var(--black);
         justify-content: center;
         align-items: center;
-
     }
 
     .header .nav a:hover {
@@ -156,10 +145,9 @@
     }
 
     .container {
-
         max-width: 600px;
         margin: 0 auto;
-        padding: 150px;
+        padding: 130px;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         margin-top: 8rem;
         margin-bottom: 8rem;
@@ -167,17 +155,10 @@
 
     .form-group {
         margin-bottom: 30px;
-
     }
 
-
-
     /* media queries  */
-
     @media (max-width:991px) {
-
-
-
         .header .link-btn {
             display: none;
         }
@@ -185,11 +166,9 @@
         section {
             padding: 3rem 2rem;
         }
-
     }
 
     @media (max-width:768px) {
-
         section {
             padding: 3rem 1rem;
         }
@@ -234,11 +213,9 @@
         .home .content {
             width: auto;
         }
-
     }
 
     @media (max-width:450px) {
-
         html {
             font-size: 50%;
         }
@@ -250,7 +227,6 @@
         .heading {
             font-size: 3rem;
         }
-
     }
 
     @media only screen and (max-width:480px) {
@@ -265,7 +241,6 @@
         .contact-in:nth-child(3) {
             flex: 100%;
         }
-
     }
 
     @media only screen and (max-width:360px) {
@@ -280,63 +255,43 @@
         .contact-in:nth-child(3) {
             flex: 100%;
         }
-
     }
 </style>
 
 <body>
     <header class="header fixed-top">
-
         <div class="containers">
-
             <div class="row align-items-center justify-content-between">
-
-
-                <a href="Index.php" class="logo"><img src="Pictures/CreatingPossibility_Logo.png" style=float:left alt="CreatingPossbility">Creating<span>Possibility</span></a>
-
+                <a href="Index.php" class="logo"><img src="Pictures/logog.png" style=float:left alt="CreatingPossbility">Creating<span>Possibility</span></a>
                 <nav class="nav">
                     <a href="Index.php">Home</a>
                     <a href="About.php">About Us</a>
-
                     <a href="Contact.php">Contact</a>
                 </nav>
-
                 <a href="Login_Employer-Seeker.php" class="link-btn">LOGIN</a>
-
                 <div id="menu-btn" class="fas fa-bars"></div>
-
             </div>
-
         </div>
-
     </header>
-    <?php
-    session_start();
-    $errores = [];
-    ?>
-
-
     <div class="container">
         <h1 class="heading">Employer's Login</h1>
         <form action="LogIn_Employer.php" method="post">
             <div class="form-group">
-                <input type="email" placeholder="Enter Company Email: " name="email" class="form-control">
+                <input type="email" placeholder="Enter Email: " name="employer_email" class="form-control">
             </div>
             <div class="form-group">
                 <input type="password" placeholder="Enter Password: " name="password" class="form-control">
                 <div class="text-right">
-                    <div> <a href="" style="font-size: 14px;">Forgot password?</a></div>
+                    <div> <a href="Forgot_Employer.php" style="font-size: 14px;">Forgot password?</a></div>
                 </div>
             </div>
-            <br>
             <div class="form-group-btn text-center">
                 <input type="submit" class="btn btn-primary" name="employer_login" placeholder="SUBMIT">
             </div>
-
             <hr>
         </form>
         <div>
-            <p>Not registered yet? <a href="Reg_Employer-Seeker.php">Register Here</a></p>
+            <p>Not registered yet? <a href="Registration_Employer.php">Register Here</a></p>
         </div>
     </div>
 </body>
